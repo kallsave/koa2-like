@@ -1,0 +1,28 @@
+{
+  "name": "koa2-like",
+  "version": "1.0.0",
+  "description": "koa2 design mode",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kallsave/koa2-like.git"
+  },
+  "keywords": [],
+  "author": "kallsave",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kallsave/koa2-like/issues"
+  },
+  "homepage": "https://github.com/kallsave/koa2-like#readme",
+  "dependencies": {
+    "methods": "^1.1.2",
+    "mime2": "0.0.9",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.4",
+    "redis": "^3.0.2",
+    "send": "^0.17.1"
+  }
+}
